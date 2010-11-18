@@ -1,0 +1,23 @@
+/*
+ * This file is part of the mhThumbsPlugin package.
+ */
+
+/**
+ * Cache class that stores cached content in APC.
+ *
+ * @package    mhThumbsPlugin
+ * @subpackage
+ * @author     Marshall Happ <marshallhapp@gmail.com>
+ * @version    0.1
+ */
+
+/* mhThumbsPlugin/web/css/thumbs.css */
+
+
+span.voteupimage {
+  padding-left: 20px;
+}
+
+span.votedownimage {
+  padding-left: 20px;
+}
