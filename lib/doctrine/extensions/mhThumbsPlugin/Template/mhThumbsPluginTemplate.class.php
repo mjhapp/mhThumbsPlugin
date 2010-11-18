@@ -29,11 +29,11 @@ class ThumbsUpDown extends Doctrine_Template
   public function renderVotes()
   {
     $votesHTML = '<span class="votes"><span class="voteupimage">'
-      . '<img src="/theme/images/up.png">'
+      . '<img src="/mhThumbsPlugin/web/images/up.png">'
       . '</span><span class="voteups">'
       . $this->getInvoker()->getVoteUps()
       . '</span><span class="votedownimage">'
-      . '<img src="/theme/images/down.png">'
+      . '<img src="/mhThumbsPlugin/web/images/down.png">'
       . '</span><span class="votedowns">'
       . $this->getInvoker()->getVoteDowns()
       . '</span></span>';
